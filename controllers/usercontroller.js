@@ -1,4 +1,4 @@
-var bcrypt = require('bcrypt');
+var bcrypt = require('bcryptjs');
 const { Router } = require('express');
 var jwt = require('jsonwebtoken');
 var router = Router();
