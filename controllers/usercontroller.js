@@ -1,6 +1,7 @@
-var router = Router();
 var bcrypt = require('bcrypt');
+const { Router } = require('express');
 var jwt = require('jsonwebtoken');
+var router = Router();
 
 var User = require('../db').import('../models/user');
 
